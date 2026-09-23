@@ -1,0 +1,158 @@
+@charset "UTF-8";
+body {
+  font-family: "Martel", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #241807;
+  margin: 0;
+}
+h1 {
+  font-family: "Capriola", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+  color: #D92B5A;
+  font-size: 64px;
+}
+
+h2 {
+  font-family: "Capriola", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+  font-size: 41px;
+  color: #D92B5A;
+}
+
+h3 {
+  font-family: "Martel", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  color: #D92B5A;
+}
+
+q{
+  font-family: "Martel", serif;
+  font-weight: 700;
+  font-size: 32px;
+  font-style:normal;
+  color: #4BA6A6;
+  margin: 2px;
+}
+
+.padding{
+	padding-right:50%;
+	
+}
+
+.paddingtop {
+	padding-top: 20px
+}
+
+.marginbottom{
+	margin-bottom: 0px
+}
+
+.margintop{
+	margin-top: 5px
+}
+
+.Subheadings{
+  font-family: "Martel", serif;
+  font-weight: 645;
+  font-size: 21px;
+  color: #D92B5A;
+ margin: auto;
+font-style: italic;
+	
+}
+
+section {
+	padding: 10%;
+}
+
+/*background color for section*/
+.sectionBG {
+	background-color: #FBD6E1;
+	overflow: auto;
+}
+
+.sectionTypography {
+	background-color: #FFF9ED;
+	padding-top: 2%;
+	padding-bottom: 2%
+}
+
+.sectionColor {
+	background-color: #FBD7E1;
+	padding-top: 5%;
+	padding-bottom: 2.5%
+}
+
+footer {
+	padding: 10%;
+	background-color: #FFF9ED;
+	padding-top: 2.5%;
+	padding-bottom: 5%
+}
+
+a {
+	color:#4BA6A6
+}
+
+a:hover {
+	color: #A8EDED;
+}
+
+.button {
+  background-color: #4BA6A6;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  boarder-radius: 5px;
+  font-family: "Capriola", sans-serif; 
+}
+
+.button:hover {
+	background-color: #A8EDED
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+.left { 
+	float: left;
+	padding-right: 40px;
+	padding-bottom: 30px;
+}
+
+.right { 
+	float: right;
+	padding-right: 40px;
+	padding-bottom: 30px;
+}
+
+.hero {
+	background-image:url("img/HeroSection.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.imageCenter {
+	width: 50%;              /* The element MUST have a defined width */
+  margin: 0 auto;          /* Automatically splits left and right space */
+
+}
+
+.imageContainer img {
+	width: 100%;
+	height: auto;
+	
+}
